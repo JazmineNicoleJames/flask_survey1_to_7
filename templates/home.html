@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %} 
+    <title>{% block title %} {% endblock %}</title>
+    <h1> {{title}}</h1>
+    <p>{{instructions}}</p>
+    <form action="/questions/0">
+        <button > Start </button>
+    </form>
+
+   {% endblock %}
